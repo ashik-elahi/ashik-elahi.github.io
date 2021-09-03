@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Website.</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="user">
+            <img src="images/user.jpg" alt="">
+            <h3 class="name">ashik_elahi</h3>
+            <p class="post">Student</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Album</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="menu" class="fas fa-bars"> </div>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div>
+            <h3>Hi...</h3>
+            <h1>I'm <span>Ashik Elahi</span></h1>
+            <p>
+            </p>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <h1 class="heading"> <span>About</span> me </h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span> Name : </span> Ashik Elahi </h3>
+                <h3> <span> Age : </span> 21 </h3>
+                <h3> <span> Qualification : </span> Bsc running </h3>
+                <h3> <span> Language : </span> Bangla, English </h3>
+            </div>
+        </div>
+    </section>
+    <!-- education section -->
+    <section class="education" id="education">
+        <h1 class="heading"> <span>Education</span> </h1>
+        <div class="education-container">
+            <div class="university">
+                <h3>
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>University</span>
+                </h3>
+                <img class="uni-logo" src="images/ruet-logo.jpg" alt="">
+                <p>Studying Computer Science and
+                    Engineering at Rajshahi University of Enginneering & Technology.</p>
+            </div>
+            <div class="college">
+                <h3>
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>College</span>
+                </h3>
+                <img class="clg-logo" src="images/ngdc-logo.jpg" alt="">
+                <p>Studied HSC in Science at New Govt. Degree College, Rajshahi.</p>
+            </div>
+            <div class="school">
+                <h3>
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>School</span>
+                </h3>
+                <img class="scl-logo" src="images/bhs-logo.jpg" alt="">
+                <p>Studied at Binodpur High School. Spent the golden days of my life here.</p>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"><span>Album</span> </h1>
+        <div class="gallery">
+            <div class="box">
+                <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/img2.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/img3.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/img4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/img5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/img6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>Contact</span> info </h1>
+        <div class="row">
+            <div class="content">
+                <div class="info">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Rajshahi - 6204, Bangladesh</h3>
+                    <h3> <i class="fas fa-phone"></i> +880-1776229334 </h3>
+                    <h3> <i class="fas fa-envelope"></i> ashikelahi2512@gmail.com </h3>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/ashikelahi2512@gmail.com" method="POST" >
+                <input type="text" name="name" placeholder="name" class="box" required>
+                <input type="email" name="email" placeholder="email" class="box" required>
+                <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="message" required></textarea>
+                <button type="submit" class="msg_btn"> send <i class="fas fa-paper-plane"></i> </button>
+            </form>
+        </div>
+    </section>
+    <!-- scroll to top button  -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+</body>
+
+</html>
