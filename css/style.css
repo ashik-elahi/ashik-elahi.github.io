@@ -153,11 +153,6 @@ header .navbar ul li a:hover {
     color: crimson;
 }
 
-.home p {
-    font-size: 2rem;
-    color: #eee;
-    padding: 1rem 0;
-}
 
 .about .row {
     display: flex;
@@ -189,22 +184,22 @@ header .navbar ul li a:hover {
     text-align: center;
 }
 
-.education-container .university {
+.education-container .inst {
     margin-top: 2rem;
 }
 
-.education-container .university i {
+.education-container .inst i {
     color: moccasin;
     font-size: 30px;
 }
 
-.education-container .university span {
+.education-container .inst span {
     color: purple;
     font-size: 30px;
     margin-left: 10px;
 }
 
-.education-container .uni-logo {
+.education-container .inst-logo {
     height: 20rem;
     width: 20rem;
     margin-top: 10px;
@@ -213,65 +208,7 @@ header .navbar ul li a:hover {
     border: solid;
 }
 
-.university p {
-    font-size: 17px;
-    color: #FEFEFA;
-}
-
-.education-container .college {
-    margin-top: 2rem;
-}
-
-.education-container .college i {
-    color: moccasin;
-    font-size: 30px;
-}
-
-.education-container .college span {
-    color: purple;
-    font-size: 30px;
-    margin-left: 10px;
-}
-
-.education-container .clg-logo {
-    height: 20rem;
-    width: 20rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 1px;
-    border: solid;
-}
-
-.college p {
-    font-size: 17px;
-    color: #FEFEFA;
-}
-
-.education-container .school {
-    margin-top: 2rem;
-}
-
-.education-container .school i {
-    color: moccasin;
-    font-size: 30px;
-}
-
-.education-container .school span {
-    color: purple;
-    font-size: 30px;
-    margin-left: 10px;
-}
-
-.education-container .scl-logo {
-    height: 20rem;
-    width: 20rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 1px;
-    border: solid;
-}
-
-.school p {
+.inst p {
     font-size: 17px;
     color: #FEFEFA;
 }
@@ -404,7 +341,7 @@ header .navbar ul li a:hover {
 }
 
 
-/* media queries  */
+/* adjusting with screen  */
 
 @media (max-width:1200px) {
 
@@ -450,6 +387,16 @@ header .navbar ul li a:hover {
 
     header {
         width: 100vw;
+    }
+
+    .home h3 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .home h1 {
+        font-size: 4rem;
+        color: #fff;
     }
 
     .heading {
