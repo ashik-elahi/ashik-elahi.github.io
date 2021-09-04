@@ -2,7 +2,7 @@
 
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,6 +33,7 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
     background: #702963;
+    border-radius: 2px;
 }
 
 body {
@@ -86,7 +87,7 @@ header .user img {
 }
 
 header .user .name {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #a01e72eb;
 }
 
@@ -107,7 +108,8 @@ header .navbar ul li a {
     margin: 1rem 0;
     background: #1b1b2f;
     color: #fff;
-    font-size: 2rem;
+    font-family: 'Ubuntu';
+    font-size: 2.2rem;
     border-radius: 1.5rem;
 }
 
@@ -119,7 +121,7 @@ header .navbar ul li a:hover {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: #333;
+    background: #16162b;
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -135,8 +137,8 @@ header .navbar ul li a:hover {
     padding: 0 15rem;
 }
 
-.home h3 {
-    font-size: 2.5rem;
+.home h2 {
+    font-size: 4rem;
     color: #fff;
 }
 
@@ -149,31 +151,21 @@ header .navbar ul li a:hover {
     color: crimson;
 }
 
-
-.about .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 0;
+.about .info {
+    text-align: center;
 }
 
-.about .row .info {
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
+.about .info p {
+    color: #9AA1D8;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    margin: 6rem .5rem;
 }
 
-.about .row .info h3 {
-    font-size: 2rem;
-    color: #fff;
-    padding: 1rem 0;
-    font-weight: normal;
-}
-
-.about .row .info h3 span {
-    color: crimson;
-    padding: 0 .5rem;
+.about .info img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 25%;
 }
 
 .education-container {
@@ -232,10 +224,6 @@ header .navbar ul li a:hover {
     object-fit: cover;
 }
 
-.portfolio .gallery .box:hover img {
-    transform: scale(1.2);
-}
-
 .contact .row {
     display: flex;
     align-items: center;
@@ -264,6 +252,7 @@ header .navbar ul li a:hover {
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
+    border-radius: 1rem;
 }
 
 .contact .row form .box::placeholder {
@@ -311,8 +300,8 @@ header .navbar ul li a:hover {
 
 .scroll-up-btn {
     position: fixed;
-    height: 2rem;
-    width: 2rem;
+    height: 2.3rem;
+    width: 2.3rem;
     right: 1.5rem;
     bottom: 1.5rem;
     z-index: 100;
@@ -325,6 +314,10 @@ header .navbar ul li a:hover {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+}
+
+.scroll-up-btn i {
+    margin-top: .5rem;
 }
 
 .scroll-up-btn.show {
@@ -385,13 +378,13 @@ header .navbar ul li a:hover {
         width: 100vw;
     }
 
-    .home h3 {
-        font-size: 2rem;
+    .home h2 {
+        font-size: 2.5rem;
         color: #fff;
     }
 
     .home h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: #fff;
     }
 
