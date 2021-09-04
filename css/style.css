@@ -36,7 +36,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: #101342;
+    background: #16162b;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -60,7 +60,7 @@ section {
 }
 
 header {
-    background: #25244f;
+    background: #100f28;
     position: fixed;
     top: 0;
     left: 0;
@@ -82,17 +82,12 @@ header .user img {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .5rem solid crimson;
+    border: .4rem solid #060F36;
 }
 
 header .user .name {
-    font-size: 3.5rem;
-    color: #fff;
-}
-
-header .user .post {
-    font-size: 2.5rem;
-    color: #eee;
+    font-size: 3rem;
+    color: #a01e72eb;
 }
 
 header .navbar {
@@ -102,6 +97,7 @@ header .navbar {
 header .navbar ul {
     list-style: none;
     padding: 1rem 3rem;
+    margin-top: 2rem;
 }
 
 
@@ -109,7 +105,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1rem 0;
-    background: black;
+    background: #1b1b2f;
     color: #fff;
     font-size: 2rem;
     border-radius: 1.5rem;
@@ -295,7 +291,7 @@ header .navbar ul li a:hover {
 }
 
 .msg_btn {
-    padding: .5rem 1.5rem;
+    padding: .3rem 1.5rem;
     background: #333;
     color: #fff;
     cursor: pointer;
@@ -398,6 +394,7 @@ header .navbar ul li a:hover {
         font-size: 4rem;
         color: #fff;
     }
+
 
     .heading {
         margin: 0 3rem;
