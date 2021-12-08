@@ -1,11 +1,18 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $('#menu').click(function() {
+    var typed = new Typed(".typing", {
+        strings: ["Ashik Elahi"],
+        typeSpeed: 100,
+        backSpeed: 75,
+        loop: true
+    });
+
+    $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('header').toggleClass('toggle');
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if (this.scrollY > 0) {
             $('#menu').removeClass('fa-times');
             $('header').removeClass('toggle');
@@ -18,21 +25,22 @@ $(document).ready(function() {
         }
     });
 
-    $('.scroll-up-btn').click(function() {
+
+    $('.scroll-up-btn').click(function () {
         $('html').animate({ scrollTop: 0 });
         $('html').css("scrollBehavior", "auto");
     });
 
 
-    $('a[href*="#"]').on('click', function(e) {
+    $('a[href*="#"]').on('click', function (e) {
 
         e.preventDefault();
 
         $('html, body').animate({
 
-                scrollTop: $($(this).attr('href')).offset().top,
+            scrollTop: $($(this).attr('href')).offset().top,
 
-            },
+        },
             500,
             'linear'
         );
